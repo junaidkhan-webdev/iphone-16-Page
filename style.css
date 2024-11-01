@@ -1,0 +1,172 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero-section{
+    background-image: url("banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo{
+    
+    height: 20px;
+}
+
+
+
+.icons i{
+    color: white;
+    padding: 10px;
+
+}
+
+.helo{
+    text-shadow: 
+                0 0 5px rgba(242, 223, 212, 0.7),  /* Light orange glow */
+                0 0 10px rgba(250, 250, 250, 0.7),
+                0 0 15px rgba(255, 255, 255, 0.5),
+                0 0 20px rgba(255, 165, 0, 0.5), /* Stronger orange glow */
+                0 0 25px rgba(78, 48, 0, 0.7),  /* Light blue glow */
+                0 0 30px rgba(112, 61, 7, 0.7),
+                0 0 35px rgba(121, 89, 2, 0.5); /* Stronger blue glow */
+}
+
+
+.text-center.btns{
+    position: relative;
+    top: 340px;
+}
+
+.gray{
+    padding: 100px 10px 50px 10px;
+}
+
+.gray img{
+    border-radius: 50px;
+}
+
+.black{
+ background-color: black;
+ padding: 100px 10px 50px 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+.section3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    
+}
+.section3 h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.section3 h4{
+    font-size: 70px; /* Font size */
+            font-weight: bold; /* Make the text bold */
+            text-align: center; /* Center the text */
+            text-shadow: 
+                0 0 5px orange,  /* Orange glow */
+                0 0 10px orange, 
+                0 0 15px #ff8c00, /* Dark orange glow */
+                0 0 20px #ff8c00, 
+                0 0 25px #ff4500; /* Bright orange */
+}
+
+p{
+    width: 400px;
+    font-size: 25px;
+}
+
+.container-fluid.one{
+    background-image: linear-gradient(180deg , black , rgb(22, 10, 0));
+    padding: 100px;
+}
+
+.bgblack{
+    padding: 100px;
+    background-image: linear-gradient(180deg ,  rgb(22, 10, 0) , black , black );
+}
+
+.bgblack h2{
+    font-size: 70px; /* Font size */
+            
+            background: linear-gradient(90deg, aqua, pink, orange); /* Gradient colors */
+            -webkit-background-clip: text; /* Clip background to text */
+            -webkit-text-fill-color: transparent; /* Make text color transparent to show the background */
+            text-align: center; 
+}
+
+.bgblack h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.bgblaki{
+    background-color: black;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+
+
+.child1{
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: wheat;
+}
+
+.child2{
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgb(147, 144, 144);
+}
+
+.child3{
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: white
+}
+
+.child4{
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgb(59, 58, 58);
+}
+
+.footer{
+    background-color: rgb(29, 29, 29);
+    padding: 50px;
+}
+
+
+.footer1 ul li{
+    list-style: none;
+}
+
+.footer1 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
